@@ -4,6 +4,9 @@
   "description": "node",
   "main": "index.js",
   "scripts": {
+    // añadidos server y build
+    "server": "npx parcel src/index.html",
+    "build": "npx parcel build ./src/javascript/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
